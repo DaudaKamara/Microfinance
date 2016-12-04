@@ -237,6 +237,7 @@
             this.ClientSize = new System.Drawing.Size(1056, 693);
             this.Controls.Add(this.panel_Transaction);
             this.Name = "Deposit";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel_Transaction.ResumeLayout(false);
             this.panel_Transaction.PerformLayout();
             this.groupbx_Deposit.ResumeLayout(false);

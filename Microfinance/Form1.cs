@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Data.SqlClient;
 
 namespace Microfinance
 {
@@ -200,6 +201,8 @@ namespace Microfinance
 
         private void btnProceed_Click_1(object sender, EventArgs e)
         {
+            
+
             Acc_RegOutputForm accReg_OutPutForm = new Acc_RegOutputForm();
             this.Hide();
 
@@ -263,23 +266,106 @@ namespace Microfinance
 
         private void acctxtbox_LName_TextChanged(object sender, EventArgs e)
         {
-          
+            
         }
 
         private void acctxtbox_LName_Enter(object sender, EventArgs e)
         {
-             
-            statusBar_warning.Text = "Please enter the Customers First name";
+            statusBarWarning.Text = "Please Enter customer's Last Name";  
+            
         }
 
         private void acctxtbox_MName_Enter(object sender, EventArgs e)
         {
-            statusBar_warning.Text = "Please enter the Customers middle name";
+            statusBarWarning.Text = "Please Enter customer's Middle Name"; 
         }
 
         private void acctxtbox_FName_Enter(object sender, EventArgs e)
         {
-            statusBar_warning.Text = "Please enter the Customers Last name";
+            statusBarWarning.Text = "Please Enter customer's First Name"; 
+        }
+
+        private void statusStripWarning_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void acccombobx_Gender_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please select customer's gender"; 
+        }
+
+        private void acctxtbox_Address_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter customer's Residential Address"; 
+        }
+
+        private void acctxtbox_Email_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter customer's email address"; 
+        }
+
+        private void acctxtbox_Phone_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter customer's Phone number"; 
+        }
+
+        private void accdtimepicker_DOB_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter customer's date of birth"; 
+
+        }
+
+        private void acccombobx_AccountType_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please select the type of account from the drop down menu"; 
+
+        }
+
+        private void acctxtbox_SavingAmt_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter customer's saving amount"; 
+
+        }
+
+        private void acccombobx_Currency_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please select the currency the customer is transacting with"; 
+
+        }
+
+        private void acctxtbox_BeneficiaryFullName_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter customer's beneficiary full name"; 
+
+        }
+
+        private void acctxtbox_BeneficiaryPhone_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter customer's beneficiary phone number"; 
+
+        }
+
+        private void acctxtbox_BeneficiaryAddress_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter customer's beneficiary residential address"; 
+
+        }
+
+        private void accdtimePicker_RegDate_Enter(object sender, EventArgs e)
+        {
+            statusBarWarning.Text = "Please Enter the registration date of the customer"; 
+
+        }
+
+        private void statusBar1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statusBarWarning_PanelClick(object sender, StatusBarPanelClickEventArgs e)
+        {
+
         }
     }
 

@@ -69,7 +69,7 @@
             this.groupBox1.Controls.Add(this.button11);
             this.groupBox1.Controls.Add(this.button15);
             this.groupBox1.Controls.Add(this.button16);
-            this.groupBox1.Location = new System.Drawing.Point(284, 455);
+            this.groupBox1.Location = new System.Drawing.Point(43, 437);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(463, 54);
             this.groupBox1.TabIndex = 13;
@@ -131,7 +131,7 @@
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.label36);
             this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Location = new System.Drawing.Point(284, 94);
+            this.groupBox2.Location = new System.Drawing.Point(43, 99);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(463, 313);
             this.groupBox2.TabIndex = 12;
@@ -229,8 +229,6 @@
             this.label43.TabIndex = 0;
             this.label43.Text = "Account Transactions";
             // 
-            // statusBar_warning
-           
             // Withdrawal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -239,6 +237,7 @@
             this.Controls.Add(this.panel2);
             this.Name = "Withdrawal";
             this.Text = "Withdrawal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);

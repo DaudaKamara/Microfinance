@@ -583,6 +583,7 @@
             this.Controls.Add(this.label3);
             this.Name = "Acc_RegOutputForm";
             this.Text = "registration output";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Acc_RegOutputForm_Load);
             this.groupbx_Registration.ResumeLayout(false);
             this.groupbx_Registration.PerformLayout();

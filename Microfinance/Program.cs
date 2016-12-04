@@ -8,6 +8,7 @@ namespace Microfinance
 {
     static class Program
     {
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -17,6 +18,10 @@ namespace Microfinance
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmHome());
+
+
+            
+
             
         }
     }

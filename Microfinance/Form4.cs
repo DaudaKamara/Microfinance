@@ -25,6 +25,7 @@ namespace Microfinance
         private void frm_Initial_Deposit_Load(object sender, EventArgs e)
         {
 
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,8 +33,23 @@ namespace Microfinance
             frmHome homepg = new frmHome();
             this.Hide();
             homepg.Show();
-            
-           
+
+
+
+        }
+
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void keyboardControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupbx_Deposit_Enter(object sender, EventArgs e)
+        {
 
         }
     }
